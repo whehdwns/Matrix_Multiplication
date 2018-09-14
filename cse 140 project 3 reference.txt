@@ -6,23 +6,4 @@ gcc -std=c99 dgemm-naive.c benchmark.c -o benchmark
 ./benchmark
 
 
-
-
-
-
-
-Ready
-	dgemmunroll.c
-		unrolling
-	dgemmreorder.c
-		reorder
-	dgemmblock.c
-		blocking
-
-	dgemmblockss.c
-		blocking
-	
-	dgemmzz.c
-		SSE
-	
 	
