@@ -5,16 +5,21 @@ bash.exe
 gcc -std=c99 dgemm-naive.c benchmark.c -o benchmark
 
 ./benchmark
-
+	dgemm-naive.c
+		default
 
 	dgemmunroll.c
-		unrolling
+		Unrolling
 
 	dgemmreorder.c
-		reorder
+		Reordering
 
 	dgemmblockss.c
-		blocking
+		Blocking
+	dgemmblock1.c
+		Blocking
 	
 	dgemmzz.c
-		SSE
+		SSE Instructions
+	dgemmpadd.c
+		Padding Matrices
