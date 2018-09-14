@@ -1,3 +1,4 @@
+//whehdwns
 void dgemm(int m, int n, float *A, float *C) {
 	//m is row / column length
 	
