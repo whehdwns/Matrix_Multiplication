@@ -15,9 +15,9 @@ gcc -std=c99 dgemm-naive.c benchmark.c -o benchmark
 		Reordering
 
 	dgemmblockss.c
-		Blocking
+		Cache Blocking
 	dgemmblock1.c
-		Blocking
+		Cache Blocking
 	
 	dgemmzz.c
 		SSE Instructions
