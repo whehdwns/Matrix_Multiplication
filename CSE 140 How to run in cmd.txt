@@ -1,0 +1,20 @@
+How to run Project 3
+
+bash.exe
+
+gcc -std=c99 dgemm-naive.c benchmark.c -o benchmark
+
+./benchmark
+
+
+	dgemmunroll.c
+		unrolling
+
+	dgemmreorder.c
+		reorder
+
+	dgemmblockss.c
+		blocking
+	
+	dgemmzz.c
+		SSE

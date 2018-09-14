@@ -1,0 +1,46 @@
+
+
+http://slideplayer.com/slide/8543500/#
+http://slideplayer.com/slide/10841960/
+http://slideplayer.com/slide/5343558/#
+
+gcc -std=c99 dgemm-naive.c benchmark.c -o benchmark
+
+./benchmark
+
+
+
+dgemmzz.c
+	SSE
+
+dgemmunroll.c
+	unrolling
+dgemmunrol.c
+	unrolling
+dgemmreorder.c
+	reorder
+dgemmreo.c
+	reorder
+dgemmopt.c
+	unrolling
+dgemmunr.c
+	unrolling
+
+
+
+
+Ready
+	dgemmunroll.c
+		unrolling
+	dgemmreorder.c
+		reorder
+	dgemmblock.c
+		blocking
+
+	dgemmblockss.c
+		blocking
+	
+	dgemmzz.c
+		SSE
+	
+	
