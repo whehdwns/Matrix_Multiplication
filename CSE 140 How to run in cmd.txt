@@ -7,19 +7,3 @@ gcc -std=c99 dgemm-naive.c benchmark.c -o benchmark
 ./benchmark
 	dgemm-naive.c
 		default
-
-	dgemmunroll.c
-		Unrolling
-
-	dgemmreorder.c
-		Reordering
-
-	dgemmblockss.c
-		Cache Blocking
-	dgemmblock1.c
-		Cache Blocking
-	
-	dgemmzz.c
-		SSE Instructions
-	dgemmpadd.c
-		Padding Matrices
